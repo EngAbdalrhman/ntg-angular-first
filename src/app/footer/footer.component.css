@@ -1,0 +1,39 @@
+footer {
+  background-color: #071952; /* Dark navy for footer */
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+}
+
+.footer-links,
+.footer-social,
+.footer-contact,
+.newsletter-signup {
+  margin: 1rem 0;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  color: #37b7c3; /* Primary color on hover */
+}
+
+.footer-social a {
+  margin: 0 10px;
+}
+
+.footer-social ion-icon {
+  font-size: 30px; /* Adjust size as needed */
+  color: white; /* Color of the social media icons */
+}
+.footer-p {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
